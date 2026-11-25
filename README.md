@@ -1,2 +1,2 @@
-# portfolio
-portfolio website for earthRGE
+# Portfolio
+EarthRGE
