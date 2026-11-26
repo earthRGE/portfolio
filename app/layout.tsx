@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localfont from "next/font/local"
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,6 +12,13 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const AgravePro = localfont({
+  src: "./fonts/AgravePro-VariableFont_wght.ttf",
+  variable: "--font-agrave-pro",
+  weight: "100 900",
+  display: "swap" // what the browser loads before custom font is used
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
