@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 const AgravePro = localfont({
-  src: "./fonts/AgravePro-VariableFont_wght.ttf",
+  src: "./fonts/agrave-pro/AgravePro-VariableFont_wght.ttf",
   variable: "--font-agrave-pro",
   weight: "100 900",
   display: "swap" // what the browser loads before custom font is used
